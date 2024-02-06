@@ -7,5 +7,6 @@ set PATH=%PYTHON_PATH%;%python_SITE_PATH%;%PATH%
 
 echo Python path has been set.
 cd src_root_312
-prefect server start
+start prefect server start
+start "" "http://localhost:4200/"
 
